@@ -5,7 +5,7 @@ export default class Header extends React.Component {
   render() {
     return (
         <View style={styles.header}>
-            <Text style={styles.textHeader}>Header</Text>
+            <Text style={styles.textHeader}>Newsfa App</Text>
         </View>
     );
   }
@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     borderBottomWidth: 2,
     borderBottomColor: '#ddd',
-    paddingTop: 40,
+    paddingTop: 25,
   },
   textHeader: {
     color: 'white',
